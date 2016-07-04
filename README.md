@@ -22,7 +22,7 @@ import React from "react";
 import Hat from "react-hat";
 
 <div className="application">
-  <Hat title="My Title" />
+  <Hat title="My Title" description="My desc" />
   ...
 </div>
 ```
