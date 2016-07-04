@@ -5,7 +5,7 @@
 [![Dependency Status](https://david-dm.org/joonhocho/react-hat.svg)](https://david-dm.org/joonhocho/react-hat)
 [![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org)
 
-A higher order component for react-helmet that automatically fills og / twitter meta tags.
+A higher order component for react-helmet that auto fills favicon, og, twitter meta tags for SEO.
 
 Checkout [react-hat](https://github.com/joonhocho/react-hat) for validating string inputs.
 
@@ -22,7 +22,7 @@ import React from "react";
 import Hat from "react-hat";
 
 <div className="application">
-  <Hat title="My Title" />
+  <Hat title="My Title" description="My desc" />
   ...
 </div>
 ```
