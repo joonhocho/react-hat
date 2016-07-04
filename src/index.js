@@ -141,27 +141,18 @@ const toHelmetProps = ({
 const Hat = (props) => <Helmet {...toHelmetProps(props)} />;
 
 Hat.propTypes = PT`{
-  base: String | {
-    target: String
-    href: String
-  }
+  base: String | Object
   defaultTitle: String
   description: String
   favicon: Object
   image: String
-  link: [{
-    rel: String
-    href: String
-  }!]
-  meta: [{
-    name: String
-    content: String
-  }!]
+  link: [Object!]
+  meta: [Object!]
   og: Object
   property: Object
   siteName: String
   title: String
-  titleTemplate: String
+  titleTemplate: String | Boolean
   twitter: Object
   url: String
 }`;
