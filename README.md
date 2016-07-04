@@ -1,2 +1,2 @@
 # react-hat
-A wrapper around react-helmet that automatically fills og / twitter meta tags
+A higher order component for react-helmet that automatically fills og / twitter meta tags.
